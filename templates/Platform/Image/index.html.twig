@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+  <div class="container">
+    <h1 class="mx-auto"
+        style="margin: 5px 0 20px 0; text-align: center;
+        color: #ffffff; font-weight: 100;">
+      Изображения
+    </h1>
+
+    <table class="table table-bordered table-dark">
+      <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Изображение</th>
+        <th scope="col">Действия</th>
+      </tr>
+      </thead>
+      <tbody>
+      {% for image in images %}
+      <tr>
+        <th scope="row">{{ image.id }}</th>
+        <td><img src="{{ asset('images/images/' ~ image.imageName) }}"></td>
+        <td>
+          <div class="btn-group btn-group-sm" role="group" aria-label="">
+            {#<a href="{{ path('real_property_type_show', {id: type.id}) }}" class="btn btn-dark">#}
+              {#<i class="fas fa-search fa-lg"></i>#}
+            {#</a>#}
+            <a href="{{ path('image_edit', {id: image.id}) }}" class="btn btn-dark">
+              <i class="fas fa-pen-square fa-lg"></i>
+            </a>
+          </div>
+        </td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    <a href="{{ path('image_new') }}" class="btn btn-dark">
+      <i class="fas fa-plus-circle fa-lg"></i>&nbsp; Добавить изображение
+    </a>
+  </div>
+{% endblock body %}
+
+{% block stylesheets %}
+  {{ parent() }}
+{% endblock %}
+
+{% block javascripts %}
+  {{ parent() }}
+{% endblock %}

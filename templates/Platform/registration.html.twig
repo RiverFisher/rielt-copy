@@ -1,0 +1,165 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+  <div class="container">
+    <h1 class="mx-auto"
+        style="margin: 5px 0 20px 0; text-align: center;
+        color: #ffffff; font-weight: 100;">
+      Регистрация
+    </h1>
+
+    <p id="description" class="mx-auto;" style="text-align: center; color: #ffffff;">
+      Пройдите регистрацию и выбирайте недвижимость быстро, просто и удобно!
+    </p>
+
+    <div class="card col-6 text-white bg-q mx-auto" style="margin-bottom: 20px;">
+      {#<div class="card-header"></div>#}
+      <div class="card-body">
+        {{ form_start(form) }}
+        <div class="form-group">
+          {{ form_row(form.username) }}
+        </div>
+        <div class="form-group">
+          {{ form_row(form.email) }}
+        </div>
+        <div class="form-group">
+          {{ form_row(form.plainPassword.first) }}
+        </div>
+        <div class="form-group">
+          {{ form_row(form.plainPassword.second) }}
+        </div>
+        {#<div class="form-group">#}
+          {#{{ form_row(form.firstName) }}#}
+        {#</div>#}
+        {#<div class="form-group">#}
+          {#{{ form_row(form.lastName) }}#}
+        {#</div>#}
+        {#<div class="form-group">#}
+          {#{{ form_row(form.middleName) }}#}
+        {#</div>#}
+        {#<div class="form-group">#}
+          {#{{ form_row(form.phoneNumber) }}#}
+        {#</div>#}
+        {#<div class="form-group">#}
+          {#{{ form_row(form.dateOfBirth) }}#}
+        {#</div>#}
+        {#<div class="form-group">#}
+          {#{{ form_row(form.sex) }}#}
+        {#</div>#}
+        {#<input type="text" id="test-input" class="form-control" data-toggle="datepicker">#}
+        {#{{ form_row(form.LogIn) }}#}
+        <br>
+        <div class="form-group">
+          {{ form_row(form.submit) }}
+        </div>
+        {{ form_end(form) }}
+      </div>
+    </div>
+  </div>
+{% endblock body %}
+
+{% block stylesheets %}
+  {{ parent() }}
+  <style>
+    /* Template styles */
+    :root {
+      --main-bg-color: #423443;
+      --grape-color: #2A212B;
+      --grape-color-transparent: rgba(42, 33, 43, 0.7);
+      --light-color: #AA7E7B;
+      --light-color-hover: #986f6d;
+      --dark-color: #2A212B;
+      --light-color-transparent: rgba(170, 126, 123, 0.95);
+    }
+    body {
+      /*background-image: url("bundles/platformlanding/images/body_background.jpg");*/
+      /*background-repeat: repeat;*/
+      background-color: var(--main-bg-color);
+    }
+
+    .bg-q {
+      background-color: var(--dark-color);
+    }
+
+    /* Header styles */
+    .cover {
+      object-fit: cover;
+      height: 100vh;
+    }
+
+    .section {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      text-align: center;
+    }
+    section.section a {
+      margin: auto;
+    }
+    section a {
+      /*text-transform: uppercase;*/
+      text-align: center;
+      text-decoration: none;
+      font-size: 4.875em;
+      font-weight: 900;
+      color: #fff;
+    }
+    a:active, a:hover {
+      outline-width: 0;
+    }
+    a {
+      background-color: transparent;
+      -webkit-text-decoration-skip: objects;
+    }
+
+    /* Content area styles */
+    .bg-grape {
+      background-color: var(--grape-color);
+    }
+
+    /* Navigation bar styles */
+    .navbar {
+      padding: .7rem 1rem;
+      /*position: fixed;*/
+      /*left: 0;*/
+      /*right: 0;*/
+    }
+    .navbar-transparent {
+      background: none;
+    }
+
+    /* CSS used for positioning the footers at the bottom of the page. */
+    /* You can remove this. */
+
+    /*html{*/
+    /*height: 100%;*/
+    /*}*/
+
+    body{
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: column;
+      -webkit-flex-direction: column;
+      height: 100%;
+    }
+
+    .content{
+      flex: 1 0 auto;
+      -webkit-flex: 1 0 auto;
+      min-height: 200px;
+    }
+
+    #myFooter{
+      flex: 0 0 auto;
+      -webkit-flex: 0 0 auto;
+    }
+  </style>
+{% endblock %}
+
+{% block javascripts %}
+  {{ parent() }}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+{% endblock %}

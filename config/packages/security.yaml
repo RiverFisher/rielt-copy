@@ -1,0 +1,76 @@
+security:
+#    access_denied_url: /admin/login
+
+    # strategy can be: none, migrate, invalidate
+    session_fixation_strategy:  migrate
+
+    encoders:
+#        App\Entity\Platform\User: bcrypt
+
+        harsh:
+            algorithm: bcrypt
+            cost: 15
+
+    # https://symfony.com/doc/current/book/security.html#where-do-users-come-from-user-providers
+    providers:
+        user_provider:
+            entity:
+                class: App\Entity\Platform\User
+                property: username
+
+    firewalls:
+        # disables authentication for assets and the profiler, adapt it according to your needs
+        dev:
+            pattern: ^/(_(profiler|wdt|error)|css|images|js)/
+            security: false
+
+        secured_area:
+#        main:
+            pattern: ^/
+#            anonymous: ~
+            anonymous: true
+            form_login:
+                provider: user_provider
+#                csrf_token_generator: security.csrf.token_manager
+
+                # the user is redirected here when they need to log in
+                login_path: /login
+
+                # submit the login form here
+#                check_path: /login_check
+                check_path: /login
+
+                # if true, forward the user to the login form instead of redirecting
+                use_forward: false
+
+                # field names for the username and password fields
+                username_parameter: form[username] #_username
+                password_parameter: form[password] #_password
+
+                # login success redirecting options
+#                success_handler: login_success_handler
+
+                # login success redirecting options
+                always_use_default_target_path: false
+                default_target_path: /
+                use_referer: false
+
+                # by default, a session must exist before submitting an authentication request
+                # if false, then Request::hasPreviousSession is not called during authentication
+                require_previous_session: false
+#            logout: true
+            logout:
+                path:   /logout
+                target: /login
+
+    role_hierarchy:
+        ROLE_ADMIN:       ROLE_USER
+        ROLE_SUPER_ADMIN: ROLE_ADMIN
+
+    access_control:
+        - { path: ^/(login)$, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/(registration)$, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+#        - { path: ^/admin$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+#        - { path: ^/admin/$, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+#        - { path: ^/admin, role: ROLE_ADMIN }
+        - { path: ^/, roles: IS_AUTHENTICATED_ANONYMOUSLY }

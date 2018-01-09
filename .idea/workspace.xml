@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb5e705e-43b0-447d-8b10-5244336e5b84" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Entity/RealProperty/RealPropertyImage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Form/RealProperty/RealPropertyImageType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Repository/RealProperty/RealPropertyImageRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Platform/Container/edit.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Platform/Container/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Platform/Container/new.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/0c/0cb2acaada4110bffd3cef728e914c72e1c9922c9be595bf8116abbc6d3e1085.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/12/1291a0160f61d3407e3ded21fd0492213ba65f776acfdeb8a0e1ccd5b991c895.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/14/141998ec03dfb9559fef81b5d70bc7c8fc398cc1fbd7b109a0767cfde9c9f515.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/15/15a72afaba903881805b689d83dafe2cd10fc40fbee2f64899aab0a1f265eb9d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/17/17d94e6785a4451266f55d48947ea2dea96b4ed4949718e06dc255ba885a42d0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/1a/1ae9784e9f15b6e05b2a5cf196bb886434e29bff47bab739541b9df117683868.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/1e/1e7608bacfd660e1c10ad8c9de37183724641883d5a2e98ebed3102cdd0cd005.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/1f/1ffed7baca27cf52aea1f480372e76e9f7f3ac80868d92880d088e53a545e037.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/22/22894268e92d4b5bf22a1a791678b04bd103658bda599dcf838fbdd0ca226c6d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/26/26d72fb6ea976ba395896f85ea9a8567b0d27e426b7a2dbe1b3c259b92f6b0ab.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/38/38ed809002e36516473589d6d1d9e99dc3c46b3d9011b12dabb7cfd6ad8c2e51.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/39/39785aefece66632dc18758b2c60cefed70d815d532522fb2008b9f86f9f9276.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/3a/3a60788e546432f62db3f896fc3d0b0b872996e5a5c12c0952ea9d83925a74c0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/3e/3e0b3583aabc9bc7092ea6921f463f13f226d7fa85247e9f7ea0f008ee4ce126.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/41/41a244614e1a8b364d8bc95ce51095784c6feda69a68270707fd467faa7b123f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/45/45b83d7b2691e02f8fd1fc20b30bd39c44fba40d6eecc0ac4eb647db7b668a60.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/52/526114a56d143cf94c3367d8e9699bd3f79a795f2cc62e240913b576cd95e330.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/52/5288ad4ab2119f4aeda75650ee344f58181d0fe287b87316c87b8cc8713fa6a4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/56/560269798fc67e4a8b7921d2651c5439e4a75c5fedf84eeb5be6a67f4cf311c2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/5d/5dd612f7b24dfbf65e720082530eda2c60e9b034eadc9025947a9e3b39745e95.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/64/64a5be58b14dccfb83b12a2c77e711f17a9afe34d8e8b8df4d334b042c8cd29b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/66/666f06d9723b2297813c9ad62df1f339a1ba2fef814c549b3cb473b2c4e10a4c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/67/677a635b722e080ce2caad21a7774a73e34e2c9e9cd882be785b4f64477d2ab3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/6d/6d9e9bf0feb810467ca2954298e2389bda6fc018282c15aa8fc6e86f2f1edb98.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/6e/6e9f6e3a3936497b5ae1bf3a80bef7337f8de9bf4692d8c162dbbc93cc45c08e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/6f/6f3244bdac12c8cfa7d37e8e5e3eb81f353ad7d975ffe31214e215053b817ad9.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/6f/6f3c3698735961ae8a18a1af32b4fb7a41fc970128cd2dd994b1a506c64bffd8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/6f/6f4330859848c1c77523785f83d8b4ff059bdb1aad900b961d6bce8a9ee7515b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/71/7165478a695090e62f5c749e07393018389f903867300ccec3e9b43b214689e8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/76/7693b62e504e00826b737939a4b0c98971ef8bcb692d6e5a23bf169a6cda71c2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/79/7977672cdbf3c37a712ef9fe5ded3f02e16f29c95f58211705a64cf603f0cbf7.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/7b/7bade13b4aa15ab3d73d882daf220445eb4d5c6f4ef130dd4c42e574acaadcfa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/7d/7d271c4714d7aadef82e136cbd0820cce05730bef5efc417e383a416d0ef8ef2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/7e/7ec923434cbb23358cf48d4b09ae373f4b0dab94721a520a02afeb808677865a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/81/81f1adc4d0139b325da354bdd437adbe2e6d703889a80411b2e570a2e72c8cf2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/83/831a3c475af263c668da8b8096efb9223bd0ab26ac21678ad57485b25df785eb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/8a/8a412900538f7ff3c2d548d62bd7215fa3983a6e9ec65b12524aa8e829c34ccf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/8a/8a661933072e9f381f50014bc8ab615a174f88a517db08493e5303f602b1340f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/8b/8b37632731dcc6766b2551a918afa7b90433d746c0f2b96728e2e504955ad30a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/8d/8dde758dc5e8b6f6a76000933b3116010c5b39293aefa1eeadc94036b54d2566.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/8e/8e85140c56929005dfaeb1cd02346239a89bcde091cf5d9c47e62886e8c6558b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/93/933237e38fb500c14f1e9d6cfe15aa40b1062283fe8299b99ff082c64df1b96e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/95/9528682b7c1fb1d4e2429843515d958016f9942bfe7d09f7e979fd8b5f4102a8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/9e/9e478ed0fc8b7fd8ca5427d6e944f7308060aa42298105409232e63a50d703d2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/a6/a6fdc969b5356e0712f7bfe6c9326b3c05703b360a08f384801146c4c0453f83.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/b4/b42d196c5e55ea57e060d7876b70c392f68a5d613a6e2e9e8caeb2f8a7f1bd53.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/b5/b548ae75a13342bef390ef12d72b140fcb0cd28c65ced28412b9837a273efb79.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/c4/c46b0c3d2d0f01c0668a384ee1f6868fd1fc0c6ed005e84c25340056677d8778.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/c4/c48d3ac82432ba3ff341765258d80266f98301b2afdb5156982cf8a9f1fa3136.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/c8/c8132b9c30394ca7efaa510fd0747d86262b59d53d6bfbec875ec5dcf1c86b06.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/cc/ccc0ee942555cc8f1ea74703a14bf9bdb312b57d6ebd0b278e8960d805567f59.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/d0/d081d7c28544f8dfbc1a9658992329b0481c3516f0499ba8cb0958ff4b9d3d72.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/d1/d1bede40baecec6a0a41c2380b9a5cbd34a80c8b7e9b29d8f75e08e8e86a8ddc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/da/da507aa78f400043af577808738d1a41d989bd8a47fd891a9527c5c3a444a2e1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/e1/e1107c34d1df37899bb25c73c38f1d6f3c424492399db44b28ef6cfe040c168a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/e6/e6b67ff97680d557bff3f5ea85997931d3d8df37ff82ca2d3362c8a4430af161.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/ea/eac18e3e2f15a5f40ffa4d2d7fe46b2968d0a7a85922611bad06e3f1f53d1226.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/eb/ebbae088d069d9eca8d352010b86ff676d4b1bbb2b9e0d2edd9605ad5d22ee0e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/twig/f8/f841541a4416f4364c507429a65fcf98cec45fb6bf138f9deaa8ccb0fdf8cd93.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/framework.yaml" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" afterPath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/RealProperty/RealPropertyController.php" afterPath="$PROJECT_DIR$/src/Controller/RealProperty/RealPropertyController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/Platform/Image.php" afterPath="$PROJECT_DIR$/src/Entity/Platform/Image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/RealProperty/RealProperty.php" afterPath="$PROJECT_DIR$/src/Entity/RealProperty/RealProperty.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Form/RealProperty/RealPropertyType.php" afterPath="$PROJECT_DIR$/src/Form/RealProperty/RealPropertyType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/RealProperty/RealProperty/new.html.twig" afterPath="$PROJECT_DIR$/templates/RealProperty/RealProperty/new.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/+/K/R92OeY6PQKRb514LXVNS" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/+/K/R92OeY6PQKRb514LXVNS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/-/W/xkrUeZk6TXMzquXlI0Vo" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/-/W/xkrUeZk6TXMzquXlI0Vo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/5/Y/I+BcqFY74HrS-jRra06b" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/5/Y/I+BcqFY74HrS-jRra06b" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/6/A/kvjSNWPh1AGDl+gr3Jhj" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/6/A/kvjSNWPh1AGDl+gr3Jhj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/8/Q/S6PcIVFKFMnLejYormFs" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/8/Q/S6PcIVFKFMnLejYormFs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/9/Q/6mCojgklnXgcL8KNT40-" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/9/Q/6mCojgklnXgcL8KNT40-" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/C/O/XKpwxt-wdvoN22n82ZgK" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/C/O/XKpwxt-wdvoN22n82ZgK" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/D/7/E-4ax2aez2XQZEWeBMtC" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/D/7/E-4ax2aez2XQZEWeBMtC" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/D/H/D9ehO9tkYTEhnjV6xCsc" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/D/H/D9ehO9tkYTEhnjV6xCsc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/E/9/JKHtT3JI0LZSc3HBAnUZ" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/E/9/JKHtT3JI0LZSc3HBAnUZ" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/E/P/cP8NOUrhkHAeyfkW6iqP" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/E/P/cP8NOUrhkHAeyfkW6iqP" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/F/A/i3gO8IBnNYIVaBhgvEAT" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/F/A/i3gO8IBnNYIVaBhgvEAT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/G/L/ikV9N7onlTuqgZUuYPAg" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/G/L/ikV9N7onlTuqgZUuYPAg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/G/S/u4poL4+Y2JMvrpnHHjiC" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/G/S/u4poL4+Y2JMvrpnHHjiC" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/H/Z/MQtq3MBX8Gb6z0cEM2Wb" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/H/Z/MQtq3MBX8Gb6z0cEM2Wb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/I/C/TGLuBntH+m0ir06En2kO" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/I/C/TGLuBntH+m0ir06En2kO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/I/U/VwfTzB2-6mvBSz9ks6j1" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/I/U/VwfTzB2-6mvBSz9ks6j1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/J/B/Ai3WPLNkTaXEyeN60c4p" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/J/B/Ai3WPLNkTaXEyeN60c4p" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/J/F/vTwZZG4xhJtsVeg0xpJl" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/J/F/vTwZZG4xhJtsVeg0xpJl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/K/D/Coe21JKogn5Kb5YHkXHY" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/K/D/Coe21JKogn5Kb5YHkXHY" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/K/M/3f7YwpmPXTaZ97rNFy4U" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/K/M/3f7YwpmPXTaZ97rNFy4U" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/L/B/LFUGmOJKwn+Xc5peAp6D" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/L/B/LFUGmOJKwn+Xc5peAp6D" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/M/-/GA6jwogCff9wY7w1ghX6" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/M/-/GA6jwogCff9wY7w1ghX6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/M/B/Cjv6ZwyE9IQWY+Q1awg2" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/M/B/Cjv6ZwyE9IQWY+Q1awg2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/M/V/Oz+BZFVSIA0psHhK0N8U" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/M/V/Oz+BZFVSIA0psHhK0N8U" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/N/H/x0l-v29H-6QFyUD-aejf" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/N/H/x0l-v29H-6QFyUD-aejf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/N/K/q5T5FE83GtdFQxYUGsVC" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/N/K/q5T5FE83GtdFQxYUGsVC" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/N/O/3O8BJHTUVcx3niRApg8i" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/N/O/3O8BJHTUVcx3niRApg8i" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/N/T/Gk4fu8apoq4eov7pwbaD" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/N/T/Gk4fu8apoq4eov7pwbaD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/O/4/iUThJtcOxI7UTWAV-iST" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/O/4/iUThJtcOxI7UTWAV-iST" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/O/H/uH-SPFZfPFbtcGFgUA2O" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/O/H/uH-SPFZfPFbtcGFgUA2O" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/O/J/2Zbx2BnHjEY18MpZe703" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/O/J/2Zbx2BnHjEY18MpZe703" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/O/Z/dWWWjCNVccyTiC0UXG45" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/O/Z/dWWWjCNVccyTiC0UXG45" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/P/G/NgO3V9EIDkh9OfIMhSr8" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/P/G/NgO3V9EIDkh9OfIMhSr8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/P/W/13MBwwOZe59uRipONGE6" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/P/W/13MBwwOZe59uRipONGE6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/Q/6/7vg6ANdG0Z-S-O1M+tpg" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/Q/6/7vg6ANdG0Z-S-O1M+tpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/Q/H/G1uoGLNOsg+NZqAqEm-K" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/Q/H/G1uoGLNOsg+NZqAqEm-K" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/Q/T/1QemGUXvEKf09Bg6hD-6" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/Q/T/1QemGUXvEKf09Bg6hD-6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/R/-/f3Q9S7Ni3YSQrmR1Ytb-" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/R/-/f3Q9S7Ni3YSQrmR1Ytb-" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/R/T/FzyUmOCpcLV8P5BwUDMC" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/R/T/FzyUmOCpcLV8P5BwUDMC" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/R/U/bjMQ45otxo3OUKfIbVUI" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/R/U/bjMQ45otxo3OUKfIbVUI" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/S/1/8WBxaLaze-pod6FCgDxX" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/S/1/8WBxaLaze-pod6FCgDxX" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/T/O/Dxn3WXsE+OHK8nA7pIfU" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/T/O/Dxn3WXsE+OHK8nA7pIfU" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/U/-/ErAxF8ViAVi-5hStlhlB" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/U/-/ErAxF8ViAVi-5hStlhlB" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/U/A/dn3aygdII8JCaMoklXjX" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/U/A/dn3aygdII8JCaMoklXjX" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/U/H/yLQpv3XOTBqBKqWjR1eG" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/U/H/yLQpv3XOTBqBKqWjR1eG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/U/J/gi9QZgRy-7s-TWR5iip7" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/U/J/gi9QZgRy-7s-TWR5iip7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/U/O/1-gCjp85kCN0ib3Aey7R" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/U/O/1-gCjp85kCN0ib3Aey7R" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/U/O/BouuGaIOX-6ryCqdqUh2" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/U/O/BouuGaIOX-6ryCqdqUh2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/V/1/es8vZxp2L34IR9UBmGc8" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/V/1/es8vZxp2L34IR9UBmGc8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/V/F/mz4Zfxx4fQrGozClOJtE" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/V/F/mz4Zfxx4fQrGozClOJtE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/V/H/exK9IGJUekQphDKoHKqz" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/V/H/exK9IGJUekQphDKoHKqz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/W/E/5tiiYo6DTg6EMJfFquVE" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/W/E/5tiiYo6DTg6EMJfFquVE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/W/O/Jp01rjwcPVHjFe8X99+5" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/W/O/Jp01rjwcPVHjFe8X99+5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/W/U/2p6qskuEc1tFGypDQveb" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/W/U/2p6qskuEc1tFGypDQveb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/W/V/iDZJXL7ZymsAbOh5cMfI" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/W/V/iDZJXL7ZymsAbOh5cMfI" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/X/T/6jhvlBKbw2f8V8bhYYRS" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/X/T/6jhvlBKbw2f8V8bhYYRS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/Y/5/+UH3W+h4s-DcA80DagpW" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/Y/5/+UH3W+h4s-DcA80DagpW" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/Z/1/Xlp605FxLADEjgOJ8Ado" afterPath="$PROJECT_DIR$/var/cache/dev/pools/uUsR26fc91/Z/1/Xlp605FxLADEjgOJ8Ado" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainer.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainer.xml.meta" afterPath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainer.xml.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainerCompiler.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainerUrlGenerator.php" afterPath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainerUrlGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainerUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainerUrlGenerator.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainerUrlMatcher.php" afterPath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainerUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainerUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainerUrlMatcher.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/log/dev.log" afterPath="$PROJECT_DIR$/var/log/dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" afterPath="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/asset/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/asset/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/cache/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/cache/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/cache/Traits/MemcachedTrait.php" afterPath="$PROJECT_DIR$/vendor/symfony/cache/Traits/MemcachedTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/config/Definition/Builder/ExprBuilder.php" afterPath="$PROJECT_DIR$/vendor/symfony/config/Definition/Builder/ExprBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/config/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/config/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/config/ResourceCheckerConfigCache.php" afterPath="$PROJECT_DIR$/vendor/symfony/config/ResourceCheckerConfigCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/config/Tests/Definition/Builder/TreeBuilderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/config/Tests/Definition/Builder/TreeBuilderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/config/Tests/Fixtures/Builder/BarNodeDefinition.php" afterPath="$PROJECT_DIR$/vendor/symfony/config/Tests/Fixtures/Builder/BarNodeDefinition.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/config/Tests/Fixtures/Builder/NodeBuilder.php" afterPath="$PROJECT_DIR$/vendor/symfony/config/Tests/Fixtures/Builder/NodeBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/config/Tests/Fixtures/Builder/VariableNodeDefinition.php" afterPath="$PROJECT_DIR$/vendor/symfony/config/Tests/Fixtures/Builder/VariableNodeDefinition.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Application.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/QuestionHelper.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/QuestionHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/InputInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/console/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/ApplicationTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/ApplicationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/DependencyInjection/AddConsoleCommandPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/DependencyInjection/AddConsoleCommandPassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth1.txt" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth1decorated.txt" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth1decorated.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth2.txt" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception_escapeslines.txt" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception_escapeslines.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception_linebreaks.txt" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Fixtures/application_renderexception_linebreaks.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/QuestionHelperTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/QuestionHelperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/debug/DebugClassLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/debug/DebugClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/debug/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/debug/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/debug/Tests/Exception/FlattenExceptionTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/debug/Tests/Exception/FlattenExceptionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/AutowirePass.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/AutowirePass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/ContainerBuilder.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/ContainerBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Dumper/PhpDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Dumper/PhpDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/YamlFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/YamlFileLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/AutowirePassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/AutowirePassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/RegisterEnvVarProcessorsPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/RegisterEnvVarProcessorsPassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/ResolveInstanceofConditionalsPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/ResolveInstanceofConditionalsPassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/ContainerTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/ContainerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Dumper/PhpDumperTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Dumper/PhpDumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/includes/autowiring_classes.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/includes/autowiring_classes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/php/services9_as_files.txt" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/php/services9_as_files.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/php/services_subscriber.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/php/services_subscriber.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Loader/XmlFileLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Loader/XmlFileLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/doctrine-bridge/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/doctrine-bridge/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/doctrine-bridge/ManagerRegistry.php" afterPath="$PROJECT_DIR$/vendor/symfony/doctrine-bridge/ManagerRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/doctrine-bridge/Tests/DependencyInjection/CompilerPass/RegisterMappingsPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/doctrine-bridge/Tests/DependencyInjection/CompilerPass/RegisterMappingsPassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/doctrine-bridge/Tests/Form/ChoiceList/DoctrineChoiceLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/doctrine-bridge/Tests/Form/ChoiceList/DoctrineChoiceLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/doctrine-bridge/Tests/Form/Type/EntityTypeTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/doctrine-bridge/Tests/Form/Type/EntityTypeTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/doctrine-bridge/Tests/PropertyInfo/DoctrineExtractorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/doctrine-bridge/Tests/PropertyInfo/DoctrineExtractorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dotenv/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/dotenv/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/filesystem/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/filesystem/Tests/FilesystemTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Tests/FilesystemTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/finder/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/flex/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/flex/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/flex/README.md" afterPath="$PROJECT_DIR$/vendor/symfony/flex/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/flex/src/Flex.php" afterPath="$PROJECT_DIR$/vendor/symfony/flex/src/Flex.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/flex/tests/FlexTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/flex/tests/FlexTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/form/Console/Descriptor/Descriptor.php" afterPath="$PROJECT_DIR$/vendor/symfony/form/Console/Descriptor/Descriptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/form/Console/Descriptor/TextDescriptor.php" afterPath="$PROJECT_DIR$/vendor/symfony/form/Console/Descriptor/TextDescriptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/form/FormRegistry.php" afterPath="$PROJECT_DIR$/vendor/symfony/form/FormRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/form/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/form/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/form/Tests/Console/Descriptor/AbstractDescriptorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/form/Tests/Console/Descriptor/AbstractDescriptorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/framework-bundle/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/symfony/framework-bundle/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/framework-bundle/Command/CacheClearCommand.php" afterPath="$PROJECT_DIR$/vendor/symfony/framework-bundle/Command/CacheClearCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/ControllerTrait.php" afterPath="$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/ControllerTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/framework-bundle/DependencyInjection/FrameworkExtension.php" afterPath="$PROJECT_DIR$/vendor/symfony/framework-bundle/DependencyInjection/FrameworkExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/framework-bundle/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/framework-bundle/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/framework-bundle/Templating/Helper/CodeHelper.php" afterPath="$PROJECT_DIR$/vendor/symfony/framework-bundle/Templating/Helper/CodeHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/framework-bundle/Tests/DependencyInjection/FrameworkExtensionTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/framework-bundle/Tests/DependencyInjection/FrameworkExtensionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/framework-bundle/Translation/Translator.php" afterPath="$PROJECT_DIR$/vendor/symfony/framework-bundle/Translation/Translator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/framework-bundle/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/framework-bundle/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Request.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/MemcachedSessionHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/MemcachedSessionHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/MongoDbSessionHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/MongoDbSessionHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/PdoSessionHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/PdoSessionHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/RequestTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/RequestTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/ResponseTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/ResponseTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/Session/Storage/Handler/StrictSessionHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/Session/Storage/Handler/StrictSessionHandlerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Client.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/EventListener/ExceptionListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/EventListener/ExceptionListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/EventListener/SaveSessionListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/EventListener/SaveSessionListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Kernel.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/EventListener/ExceptionListenerTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/EventListener/ExceptionListenerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/KernelTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/KernelTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/inflector/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/inflector/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/intl/Intl.php" afterPath="$PROJECT_DIR$/vendor/symfony/intl/Intl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/intl/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/intl/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/intl/Resources/bin/icu.ini" afterPath="$PROJECT_DIR$/vendor/symfony/intl/Resources/bin/icu.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/currencies/de.json" afterPath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/currencies/de.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/currencies/ur.json" afterPath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/currencies/ur.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/languages/de.json" afterPath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/languages/de.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/languages/ur.json" afterPath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/languages/ur.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/regions/de.json" afterPath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/regions/de.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/regions/ur.json" afterPath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/regions/ur.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/scripts/de.json" afterPath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/scripts/de.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/scripts/ur.json" afterPath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/scripts/ur.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/svn-info.txt" afterPath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/svn-info.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/version.txt" afterPath="$PROJECT_DIR$/vendor/symfony/intl/Resources/data/version.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/intl/Tests/DateFormatter/AbstractIntlDateFormatterTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/intl/Tests/DateFormatter/AbstractIntlDateFormatterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/monolog-bridge/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/monolog-bridge/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/options-resolver/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/options-resolver/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/process/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/process/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/process/Process.php" afterPath="$PROJECT_DIR$/vendor/symfony/process/Process.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/process/Tests/ProcessTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/ProcessTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/property-access/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/property-access/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Generator/UrlGenerator.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Generator/UrlGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/routing/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Route.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Route.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Generator/UrlGeneratorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Generator/UrlGeneratorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Matcher/Dumper/PhpMatcherDumperTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Matcher/Dumper/PhpMatcherDumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security-bundle/DependencyInjection/MainConfiguration.php" afterPath="$PROJECT_DIR$/vendor/symfony/security-bundle/DependencyInjection/MainConfiguration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security-bundle/DependencyInjection/Security/UserProvider/InMemoryFactory.php" afterPath="$PROJECT_DIR$/vendor/symfony/security-bundle/DependencyInjection/Security/UserProvider/InMemoryFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security-bundle/DependencyInjection/SecurityExtension.php" afterPath="$PROJECT_DIR$/vendor/symfony/security-bundle/DependencyInjection/SecurityExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security-bundle/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/security-bundle/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security-bundle/Resources/config/security.xml" afterPath="$PROJECT_DIR$/vendor/symfony/security-bundle/Resources/config/security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security-bundle/Tests/Debug/TraceableFirewallListenerTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/security-bundle/Tests/Debug/TraceableFirewallListenerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security-bundle/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/security-bundle/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Core/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/security/Core/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Csrf/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/security/Csrf/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Guard/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/security/Guard/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/Http/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/security/Http/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/security/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/security/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/stopwatch/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/stopwatch/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/templating/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/templating/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/twig-bridge/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/twig-bridge/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/twig-bridge/Tests/Extension/TranslationExtensionTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/twig-bridge/Tests/Extension/TranslationExtensionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/twig-bundle/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/symfony/twig-bundle/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/twig-bundle/DependencyInjection/Configurator/EnvironmentConfigurator.php" afterPath="$PROJECT_DIR$/vendor/symfony/twig-bundle/DependencyInjection/Configurator/EnvironmentConfigurator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/twig-bundle/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/twig-bundle/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/twig-bundle/Tests/Functional/CacheWarmingTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/twig-bundle/Tests/Functional/CacheWarmingTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/twig-bundle/Tests/Functional/NoTemplatingEntryTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/twig-bundle/Tests/Functional/NoTemplatingEntryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/twig-bundle/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/twig-bundle/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/AbstractCloner.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/AbstractCloner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/VarDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/VarDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.html.twig" afterPath="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/base_js.html.twig" afterPath="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/base_js.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/web-server-bundle/Command/ServerLogCommand.php" afterPath="$PROJECT_DIR$/vendor/symfony/web-server-bundle/Command/ServerLogCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/web-server-bundle/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/web-server-bundle/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/web-server-bundle/Resources/router.php" afterPath="$PROJECT_DIR$/vendor/symfony/web-server-bundle/Resources/router.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/web-server-bundle/WebServer.php" afterPath="$PROJECT_DIR$/vendor/symfony/web-server-bundle/WebServer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/web-server-bundle/WebServerConfig.php" afterPath="$PROJECT_DIR$/vendor/symfony/web-server-bundle/WebServerConfig.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/web-server-bundle/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/web-server-bundle/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/LICENSE" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/LICENSE" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <executablePath>composer</executablePath>
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RealPropertyController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/RealProperty/RealPropertyController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="50" column="40" lean-forward="false" selection-start-line="46" selection-start-column="10" selection-end-line="50" selection-end-column="40" />
+              <folding>
+                <element signature="e#47#88#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getGroups()</find>
+      <find>getRoles()</find>
+      <find>login-page</find>
+      <find>#DB6574</find>
+      <find>rgba(219, 101, 116, 0.95)</find>
+      <find>#d13c4f</find>
+      <find>inval</find>
+      <find>fas</find>
+      <find>Symfony\Component\Translation</find>
+      <find>$user</find>
+      <find>$realProperty</find>
+      <find>$editForm</find>
+      <find>type</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>var(</replace>
+      <replace>var(--light-color-transparent)</replace>
+      <replace>var(--light-color-hover)</replace>
+      <replace>fab</replace>
+      <replace>$realProperty</replace>
+      <replace>Hello!</replace>
+      <replace>$type</replace>
+      <replace>$form</replace>
+      <replace>realProperty</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/Platform/registrations.html.twig" />
+        <option value="$PROJECT_DIR$/templates/Platform/logins.html.twig" />
+        <option value="$PROJECT_DIR$/config/packages/security.yaml" />
+        <option value="$PROJECT_DIR$/src/Controller/Platform/SecurityController.php" />
+        <option value="$PROJECT_DIR$/templates/Platform/login.html.twig" />
+        <option value="$PROJECT_DIR$/src/Repository/RealProperty/RealPropertyRepository.php" />
+        <option value="$PROJECT_DIR$/src/Repository/RealProperty/RealPropertyTypeRepository.php" />
+        <option value="$PROJECT_DIR$/src/Entity/RealProperty/Purpose.php" />
+        <option value="$PROJECT_DIR$/src/Repository/RealProperty/PurposeRepository.php" />
+        <option value="$PROJECT_DIR$/config/packages/doctrine.yaml" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/composer.lock" />
+        <option value="$PROJECT_DIR$/templates/Platform/registration.html.twig" />
+        <option value="$PROJECT_DIR$/templates/Platform/main.html.twig" />
+        <option value="$PROJECT_DIR$/templates/RealProperty/RealProperty/edit.html.twig" />
+        <option value="$PROJECT_DIR$/config/bundles.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Platform/ImageRepository.php" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/config/packages/framework.yaml" />
+        <option value="$PROJECT_DIR$/src/Form/RealProperty/RealPropertyTypeType.php" />
+        <option value="$PROJECT_DIR$/templates/RealProperty/RealPropertyType/new.html.twig" />
+        <option value="$PROJECT_DIR$/templates/RealProperty/RealPropertyType/edit.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/RealProperty/RealPropertyTypeController.php" />
+        <option value="$PROJECT_DIR$/templates/RealProperty/RealPropertyType/index.html.twig" />
+        <option value="$PROJECT_DIR$/templates/RealProperty/RealProperty/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Entity/RealProperty/RealPropertyType.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Controller/Platform/ImageController.php" />
+        <option value="$PROJECT_DIR$/templates/Platform/Image/new.html.twig" />
+        <option value="$PROJECT_DIR$/templates/Platform/Image/index.html.twig" />
+        <option value="$PROJECT_DIR$/templates/RealProperty/RealProperty/new.html.twig" />
+        <option value="$PROJECT_DIR$/src/Entity/Platform/Image.php" />
+        <option value="$PROJECT_DIR$/src/Form/Platform/ImageType.php" />
+        <option value="$PROJECT_DIR$/src/Repository/RealProperty/RealPropertyImageRepository.php" />
+        <option value="$PROJECT_DIR$/src/Form/RealProperty/RealPropertyType.php" />
+        <option value="$PROJECT_DIR$/src/Entity/RealProperty/RealProperty.php" />
+        <option value="$PROJECT_DIR$/config/packages/vich_uploader.yaml" />
+        <option value="$PROJECT_DIR$/src/Form/RealProperty/RealPropertyImageType.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Platform/Parent.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Platform/ContainerRepository.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Platform/ContainerImageRepository.php" />
+        <option value="$PROJECT_DIR$/src/Entity/RealProperty/RealPropertyImage.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Platform/ContainerImage.php" />
+        <option value="$PROJECT_DIR$/src/Form/Platform/ContainerImageType.php" />
+        <option value="$PROJECT_DIR$/src/Controller/Platform/ContainerImageController.php" />
+        <option value="$PROJECT_DIR$/templates/Platform/Container/new.html.twig" />
+        <option value="$PROJECT_DIR$/templates/Platform/Container/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Form/Platform/ContainerType.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Platform/Container.php" />
+        <option value="$PROJECT_DIR$/src/Controller/Platform/ContainerController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/RealProperty/RealPropertyController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="1366" />
+    <option name="height" value="741" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Platform" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RealProperty" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Platform" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RealProperty" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Platform" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RealProperty" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Platform" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Platform" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="rielt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rielt" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Platform" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Container" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Twig" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Repository/Platform" />
+      <recent name="$PROJECT_DIR$/src/Entity/Platform" />
+      <recent name="$PROJECT_DIR$/templates/RealProperty/real_property" />
+      <recent name="$PROJECT_DIR$/src/Controller/RealProperty" />
+      <recent name="$PROJECT_DIR$/src/Repository/RealProperty" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/Platform/Container" />
+      <recent name="$PROJECT_DIR$/templates/Platform" />
+      <recent name="$PROJECT_DIR$/src/Controller/Platform" />
+      <recent name="$PROJECT_DIR$/src/Form/Platform" />
+      <recent name="$PROJECT_DIR$/src/Repository/RealProperty" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb5e705e-43b0-447d-8b10-5244336e5b84" name="Default" comment="" />
+      <created>1512663874978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512663874978</updated>
+      <workItem from="1512663876438" duration="3218000" />
+      <workItem from="1512696428447" duration="3590000" />
+      <workItem from="1512801572299" duration="13869000" />
+      <workItem from="1513009347783" duration="844000" />
+      <workItem from="1513101049301" duration="759000" />
+      <workItem from="1513214661991" duration="465000" />
+      <workItem from="1513234297850" duration="1162000" />
+      <workItem from="1513259094531" duration="644000" />
+      <workItem from="1513305838962" duration="833000" />
+      <workItem from="1513340190474" duration="12917000" />
+      <workItem from="1513439823379" duration="4105000" />
+      <workItem from="1513490185290" duration="1557000" />
+      <workItem from="1513558594781" duration="14207000" />
+      <workItem from="1513918768444" duration="13972000" />
+      <workItem from="1513989299430" duration="7666000" />
+      <workItem from="1514032546794" duration="4227000" />
+      <workItem from="1514069580553" duration="3624000" />
+      <workItem from="1514160843848" duration="1235000" />
+      <workItem from="1514358652147" duration="3124000" />
+      <workItem from="1514423802816" duration="1768000" />
+      <workItem from="1514479483077" duration="1198000" />
+      <workItem from="1514632454388" duration="1800000" />
+      <workItem from="1514733875418" duration="1559000" />
+      <workItem from="1514773156644" duration="4018000" />
+      <workItem from="1514785107737" duration="3224000" />
+      <workItem from="1514792919383" duration="9403000" />
+      <workItem from="1514895338165" duration="1093000" />
+      <workItem from="1514959849274" duration="1328000" />
+      <workItem from="1514982087469" duration="5691000" />
+      <workItem from="1515026844121" duration="5842000" />
+      <workItem from="1515039610860" duration="4293000" />
+      <workItem from="1515067914493" duration="4172000" />
+      <workItem from="1515079957850" duration="2037000" />
+      <workItem from="1515083702511" duration="2613000" />
+      <workItem from="1515116875181" duration="4452000" />
+      <workItem from="1515122124801" duration="2363000" />
+      <workItem from="1515137510667" duration="8441000" />
+      <workItem from="1515149881268" duration="26278000" />
+      <workItem from="1515218088338" duration="3513000" />
+      <workItem from="1515234521419" duration="8497000" />
+      <workItem from="1515285271665" duration="12993000" />
+      <workItem from="1515376454332" duration="3170000" />
+      <workItem from="1515418257706" duration="4528000" />
+      <workItem from="1515464716046" duration="2659000" />
+      <workItem from="1515467913868" duration="3951000" />
+      <workItem from="1515486777232" duration="611000" />
+      <workItem from="1515504633305" duration="5341000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="228854000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27769348" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2996965" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Repository/RealProperty/RealPropertyRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Platform/main.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3978">
+          <caret line="221" column="5" lean-forward="false" selection-start-line="207" selection-start-column="4" selection-end-line="221" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/bundles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/twig.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" column="52" lean-forward="false" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/doctrine_migrations.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="51" lean-forward="true" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Platform/ImageRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/routing.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Platform/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Platform/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="134" column="7" lean-forward="false" selection-start-line="134" selection-start-column="7" selection-end-line="134" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/translation.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/dev/web_profiler.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/dev/routing.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/prod/doctrine.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/prod/monolog.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/framework.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/RealProperty/RealPropertyTypeType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1818">
+          <caret line="101" column="45" lean-forward="false" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/RealProperty/RealPropertyType/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/RealProperty/RealPropertyType/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/RealProperty/RealPropertyType/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/RealProperty/RealPropertyTypeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="95" column="5" lean-forward="false" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Platform/Image/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Platform/Image/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Platform/ImageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/RealProperty/RealPropertyType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="44" column="43" lean-forward="true" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Platform/Image/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/RealProperty/RealProperty/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2484">
+          <caret line="139" column="5" lean-forward="false" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/Platform/ImageType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/RealProperty/RealPropertyImageRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/RealProperty/RealProperty/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="41" column="71" lean-forward="false" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/vich_uploader.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/RealProperty/RealPropertyImageType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Platform/ContainerRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Platform/ContainerImageRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/RealProperty/RealPropertyImage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3069">
+          <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Platform/Image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/RealProperty/RealPropertyType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="97" column="36" lean-forward="true" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/RealProperty/RealProperty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="261" column="1" lean-forward="true" selection-start-line="261" selection-start-column="1" selection-end-line="261" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Platform/ContainerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding>
+            <element signature="e#43#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Platform/ContainerImage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding>
+            <element signature="e#39#71#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Platform/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="100" column="7" lean-forward="false" selection-start-line="81" selection-start-column="6" selection-end-line="100" selection-end-column="7" />
+          <folding>
+            <element signature="e#39#87#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/Platform/ContainerType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="e#37#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/Platform/ContainerImageType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Platform/Container/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Platform/Container/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="42" column="8" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/RealProperty/RealPropertyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="50" column="40" lean-forward="false" selection-start-line="46" selection-start-column="10" selection-end-line="50" selection-end-column="40" />
+          <folding>
+            <element signature="e#47#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

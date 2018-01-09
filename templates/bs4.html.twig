@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Admin{% endblock %}</title>
+        {% block stylesheets %}
+            <!-- Bootstrap 4 -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+                  integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+                  crossorigin="anonymous">
+            <!-- Animate -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+            <!-- Ionicons -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+            <link rel="stylesheet" href="{{ asset('bundles/platformadmin/css/layout.css') }}" />
+            <style>
+                .custom-select {
+                    display: inline-block;
+                    max-width: 100%;
+                    height: calc(2.25rem + 2px);
+                    padding: .375rem 1.75rem .375rem .75rem;
+                    line-height: 1.25;
+                    color: #495057;
+                    vertical-align: middle;
+                    background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right .75rem center;
+                    background-size: auto auto;
+                    background-size: 8px 10px;
+                    border: 1px solid rgba(0,0,0,.15);
+                    border-radius: .25rem;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
+                }
+            </style>
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        {#{% block body %}#}
+            <div class="wrapper">
+                <!-- Sidebar Holder -->
+                <nav id="sidebar">
+                    <div class="sidebar-header">
+                        <h3>Rielt Admin</h3>
+                        <strong>RD</strong>
+                    </div>
+
+                    <ul class="list-unstyled components">
+                        {#<li class="active">#}
+                            {#<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">#}
+                                {#<i class="fa fa-home fa-fw" aria-hidden="true"></i>#}
+                                {#Home#}
+                            {#</a>#}
+                            {#<ul class="collapse list-unstyled" id="homeSubmenu">#}
+                                {#<li><a href="#">Home 1</a></li>#}
+                                {#<li><a href="#">Home 2</a></li>#}
+                                {#<li><a href="#">Home 3</a></li>#}
+                            {#</ul>#}
+                        {#</li>#}
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-info-circle fa-fw" aria-hidden="true"></i>
+                                About
+                            </a>
+                            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                                <i class="fa fa-copy fa-fw" aria-hidden="true"></i>
+                                Пользователи
+                            </a>
+                            <ul class="collapse list-unstyled" id="pageSubmenu">
+                                <li><a href="">Администраторы</a></li>
+                                <li><a href="{{ path('admin_user_index') }}">Пользователи</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-briefcase fa-fw" aria-hidden="true"></i>
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-paperclip fa-fw" aria-hidden="true"></i>
+                                FAQ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-phone fa-fw" aria-hidden="true"></i>
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled CTAs"></ul>
+                </nav>
+
+                <!-- Page Content Holder -->
+                <div id="sliding-content">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+
+                            <div class="navbar-header">
+                                <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                    <i class="fa fa-angle-down fa-fw" aria-hidden="true"></i>
+                                    <span>Toggle Sidebar</span>
+                                </button>
+                            </div>
+
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#">Page</a></li>
+                                    <li><a href="#">Page</a></li>
+                                    <li><a href="#">Page</a></li>
+                                    <li><a href="#">Page</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <div id="content">
+                        {% block body %}
+                        {% endblock body %}
+                    </div>
+                </div>
+            </div>
+        {#{% endblock %}#}
+        {% block javascripts %}
+            <!-- jQuery -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                    crossorigin="anonymous"></script>
+            <!-- Popper -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+                    integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+                    crossorigin="anonymous"></script>
+            <!-- Bootstrap 4 -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+                    integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+                    crossorigin="anonymous"></script>
+            <!-- Font Awesome -->
+            <script src="https://use.fontawesome.com/d268fea347.js"></script>
+
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $('#sidebarCollapse').on('click', function () {
+                        $('#sidebar').toggleClass('active');
+                    });
+                });
+            </script>
+        {% endblock %}
+    </body>
+</html>
